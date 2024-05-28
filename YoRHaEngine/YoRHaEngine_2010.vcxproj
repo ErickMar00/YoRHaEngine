@@ -427,6 +427,9 @@
   </ItemDefinitionGroup>
   <ItemGroup />
   <ItemGroup>
+    <ClCompile Include="source\BaseApp.cpp" />
+    <ClCompile Include="source\Device.cpp" />
+    <ClCompile Include="source\Window.cpp" />
     <ClCompile Include="YoRHaEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -436,6 +439,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\BaseApp.h" />
+    <ClInclude Include="include\Device.h" />
+    <ClInclude Include="include\PreRequisites.h" />
+    <ClInclude Include="include\Resource.h" />
+    <ClInclude Include="include\Window.h" />
     <CLInclude Include="resource.h" />
     <ResourceCompile Include="YoRHaEngine.rc" />
   </ItemGroup>
