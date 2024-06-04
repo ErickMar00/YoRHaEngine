@@ -1,7 +1,7 @@
-#pragma once
-
 #include "PreRequisites.h"
 
+
+//Forward Declarations - Declaraciones Directas
 class Device;
 class DeviceContext;
 class Window;

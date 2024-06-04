@@ -430,6 +430,8 @@
     <ClCompile Include="source\BaseApp.cpp" />
     <ClCompile Include="source\Device.cpp" />
     <ClCompile Include="source\DeviceContext.cpp" />
+    <ClCompile Include="source\SwapChain.cpp" />
+    <ClCompile Include="source\Texture.cpp" />
     <ClCompile Include="source\Window.cpp" />
     <ClCompile Include="YoRHaEngine.cpp" />
   </ItemGroup>
@@ -446,6 +448,7 @@
     <ClInclude Include="include\PreRequisites.h" />
     <ClInclude Include="include\Resource.h" />
     <ClInclude Include="include\SwapChain.h" />
+    <ClInclude Include="include\Texture.h" />
     <ClInclude Include="include\Window.h" />
     <CLInclude Include="resource.h" />
     <ResourceCompile Include="YoRHaEngine.rc" />
