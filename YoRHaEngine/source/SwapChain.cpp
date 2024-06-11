@@ -86,17 +86,19 @@ void SwapChain::init(Device& device,
     hr = m_swapChain->GetBuffer(0, __uuidof(ID3D11Texture2D), (LPVOID*)&backBuffer.m_texture);
     if (FAILED(hr)) 
     {
-        ERROR("SwapChain", "init", "Check")
+        ERROR("SwapChain", "init", "CHECK FOR m_swapChain->GetBuffer")
             exit(1);
     }
 }
 
 void SwapChain::update()
 {
+
 }
 
 void SwapChain::render()
 {
+
 }
 
 void SwapChain::destroy()
