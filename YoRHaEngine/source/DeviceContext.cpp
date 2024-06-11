@@ -1,6 +1,5 @@
 #include "DeviceContext.h"
 
-
 void DeviceContext::destroy() 
 {
 	SAFE_RELEASE(m_deviceContext);
@@ -20,3 +19,20 @@ void DeviceContext::PSSetShaderResources(unsigned int StartSlot,
 		m_deviceContext->PSSetShaderResources(StartSlot, NumViews, ppShaderResourceViews);
 	}
 }
+
+void DeviceContext::RSSetViewports(unsigned int NumViewports, 
+								   const D3D11_VIEWPORT* pViewports)
+{
+	if (pViewports == nullptr)
+	{
+		ERROR("DeviceContext", "RSSetViewports", "CHECK FOR const D3D11_VIEWPORT* pViewports")
+			exit(1);
+	}
+	else
+	{
+		m_deviceContext->RSSetViewports(NumViewports, pViewports);
+	}
+}
+
+
+
