@@ -45,7 +45,7 @@ int BaseApp::run(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine,
         else
         {
             update();   //Se actualiza tod a la parte matemàtica y fìsica
-            render();   //Se actualiza todo lo que tenga qwue ver con seteos o que aparezaca en pantalla
+            render();   //Se actualiza todo lo que tenga que ver con seteos o que aparezaca en pantalla
         }
     }
 
